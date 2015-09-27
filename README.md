@@ -22,5 +22,5 @@ https://sh-sample1-server-moonkids1-1.c9.io/
 ###アクセス制限：
 以下のJSONを返すURLは、ログイン後にしかアクセス出来ないようにしてあります。
 
-https://sh-sample1-server-moonkids1-1.c9.io/json
+https://sh-sample1-server-moonkids1-1.c9.io/users/json
 
