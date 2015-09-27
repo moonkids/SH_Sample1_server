@@ -1,24 +1,25 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
 
-Welcome to your Rails project on Cloud9 IDE!
+## とりあえず以下のサイトでデモが動きます。
 
-To get started, just do the following:
+https://sh-sample1-server-moonkids1-1.c9.io/
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://sh-sample1-server-moonkids1.c9.io/).
+Gems:
+devise (3.5.2)
+devise-ios-rails (1.0.1)
+oauth2 (1.0.0)
+omniauth (1.2.2)
+omniauth-facebook (2.0.1)
+omniauth-oauth2 (1.3.1)
+simple_token_authentication (1.8.0)
 
-Happy coding!
-The Cloud9 IDE team
 
+ローカルで作ったものをcloud9で作りなおしています。
+練習のためにbootstrapを使ってみました。
+omniauthを使って、Facebookによる認証を追加しています。
 
-## Support & Documentation
+アクセス制限：
+以下のJSONを返すURLは、ログイン後にしかアクセス出来ないようにしてあります。
+https://sh-sample1-server-moonkids1-1.c9.io/json
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
